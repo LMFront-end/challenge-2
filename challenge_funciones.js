@@ -4,6 +4,8 @@ const chalk = require('chalk');
 
 
 function cualEsMayor(num1, num2) {
+
+    //condiciones
     if (num1 > num2) {
         console.log(chalk.cyan(`El número ${num1} es mayor que el numero ${num2}`));
     } else if (num1 < num2) {
